@@ -1,0 +1,89 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Firebase/Analytics (3.14.0):
+    - Firebase/Core
+  - Firebase/Core (3.14.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.1)
+  - Firebase/Crash (3.14.0):
+    - Firebase/Core
+    - FirebaseCrash (= 1.1.6)
+  - Firebase/Messaging (3.14.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.2)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.5.1):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCrash (1.1.6):
+    - FirebaseAnalytics (~> 3.7)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseInstanceID (1.0.9)
+  - FirebaseMessaging (1.2.2):
+    - FirebaseAnalytics (~> 3.7)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - MBProgressHUD (1.0.0)
+  - Protobuf (3.2.0)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+  - RealmSwift (2.4.3):
+    - Realm (= 2.4.3)
+  - Spring (1.0.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Firebase/Analytics (~> 3.6)
+  - Firebase/Crash (~> 3.6)
+  - Firebase/Messaging (~> 3.6)
+  - MBProgressHUD (~> 1.0)
+  - RealmSwift
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: ca8a88eaa54d4605cfcb146352df05bbaa52317c
+    :git: https://github.com/MengTo/Spring.git
+  SwiftyJSON:
+    :commit: 619fba2d551b678aa0b6ceff1c863677f0eb7ff7
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseCore: 225d40532489835a034b8f4e2c9c87fbf4f615a2
+  FirebaseCrash: db4c05d9c75baa050744d31b36357c8f1efba481
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: 05cf0e98a950e2ba343735264f5a96b81e755d00
+
+PODFILE CHECKSUM: c13599bd847178efc78668d96a19c05077e5b025
+
+COCOAPODS: 1.2.0

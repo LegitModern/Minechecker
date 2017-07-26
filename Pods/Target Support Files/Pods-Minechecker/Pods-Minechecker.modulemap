@@ -1,0 +1,6 @@
+framework module Pods_Minechecker {
+  umbrella header "Pods-Minechecker-umbrella.h"
+
+  export *
+  module * { export * }
+}

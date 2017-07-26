@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246D386432508A18099AABCC /* Pods_MinecheckerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B4D23FA2CBA5ABF4AFEC13 /* Pods_MinecheckerTests.framework */; };
+		668ED308F20FDC051EF6DF98 /* Pods_Minechecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3D7EC898F135ACC4660D75 /* Pods_Minechecker.framework */; };
+		9407F87F1B7EC5E70055517F /* SavedSearchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9407F87E1B7EC5E70055517F /* SavedSearchesTableViewController.swift */; };
+		9407F8811B7EC9410055517F /* SavedSearchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9407F8801B7EC9410055517F /* SavedSearchesTableViewCell.swift */; };
+		941EEC701DFD3DF800356A66 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941EEC6F1DFD3DF800356A66 /* AdSupport.framework */; };
+		941EEC721DFD3F2200356A66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 941EEC711DFD3F2200356A66 /* GoogleService-Info.plist */; };
+		946973A61B61FC4500A9095F /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946973A51B61FC4500A9095F /* UITextFieldExtension.swift */; };
+		946FE3D11B5FEE6100349583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FE3D01B5FEE6100349583 /* AppDelegate.swift */; };
+		946FE3D31B5FEE6100349583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FE3D21B5FEE6100349583 /* ViewController.swift */; };
+		946FE3D81B5FEE6100349583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946FE3D71B5FEE6100349583 /* Images.xcassets */; };
+		946FE3DB1B5FEE6100349583 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946FE3D91B5FEE6100349583 /* LaunchScreen.xib */; };
+		946FE3E71B5FEE6100349583 /* MinecheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FE3E61B5FEE6100349583 /* MinecheckerTests.swift */; };
+		946FE3FB1B5FEECA00349583 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FE3FA1B5FEECA00349583 /* UIColorExtension.swift */; };
+		946FE3FD1B5FEECD00349583 /* MinecraftAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FE3FC1B5FEECD00349583 /* MinecraftAccount.swift */; };
+		946FE3FF1B5FEED300349583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946FE3FE1B5FEED300349583 /* Main.storyboard */; };
+		946FE4011B5FEEDF00349583 /* NameHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FE4001B5FEEDF00349583 /* NameHistoryTableViewCell.swift */; };
+		946FE4031B5FEEE500349583 /* NameHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FE4021B5FEEE500349583 /* NameHistoryTableViewController.swift */; };
+		9475FD031B6AF17100D874BB /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475FD021B6AF17100D874BB /* GradientBackgroundView.swift */; };
+		94AC07741E0BB632008D2759 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC07731E0BB632008D2759 /* UIImageViewExtension.swift */; };
+		94E2E81B1B6180F30029615B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2E81A1B6180F30029615B /* StringExtension.swift */; };
+		94E9FD2E1B7D004A009647C9 /* MinecraftSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9FD2D1B7D004A009647C9 /* MinecraftSearch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		946FE3E11B5FEE6100349583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946FE3C31B5FEE6100349583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 946FE3CA1B5FEE6100349583;
+			remoteInfo = Minechecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B4D23FA2CBA5ABF4AFEC13 /* Pods_MinecheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinecheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748C994C2072D5D46FF6CABC /* Pods-MinecheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinecheckerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MinecheckerTests/Pods-MinecheckerTests.release.xcconfig"; sourceTree = "<group>"; };
+		81E7D8A3950EE93EB70299C7 /* Pods-Minechecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minechecker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minechecker/Pods-Minechecker.debug.xcconfig"; sourceTree = "<group>"; };
+		84406BEA7A1D351CF28507EF /* Pods-Minechecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minechecker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minechecker/Pods-Minechecker.release.xcconfig"; sourceTree = "<group>"; };
+		9407F87E1B7EC5E70055517F /* SavedSearchesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedSearchesTableViewController.swift; sourceTree = "<group>"; };
+		9407F8801B7EC9410055517F /* SavedSearchesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedSearchesTableViewCell.swift; sourceTree = "<group>"; };
+		941EEC6F1DFD3DF800356A66 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		941EEC711DFD3F2200356A66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		946973A51B61FC4500A9095F /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		946FE3CB1B5FEE6100349583 /* Minechecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minechecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946FE3CF1B5FEE6100349583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946FE3D01B5FEE6100349583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		946FE3D21B5FEE6100349583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		946FE3D71B5FEE6100349583 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		946FE3DA1B5FEE6100349583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		946FE3E01B5FEE6100349583 /* MinecheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinecheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		946FE3E51B5FEE6100349583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946FE3E61B5FEE6100349583 /* MinecheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecheckerTests.swift; sourceTree = "<group>"; };
+		946FE3FA1B5FEECA00349583 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		946FE3FC1B5FEECD00349583 /* MinecraftAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinecraftAccount.swift; sourceTree = "<group>"; };
+		946FE3FE1B5FEED300349583 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		946FE4001B5FEEDF00349583 /* NameHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		946FE4021B5FEEE500349583 /* NameHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameHistoryTableViewController.swift; sourceTree = "<group>"; };
+		946FE4061B5FEF0200349583 /* Minechecker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minechecker-Bridging-Header.h"; sourceTree = "<group>"; };
+		9475FD021B6AF17100D874BB /* GradientBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
+		94AC07731E0BB632008D2759 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		94E2E81A1B6180F30029615B /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		94E9FD2D1B7D004A009647C9 /* MinecraftSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinecraftSearch.swift; sourceTree = "<group>"; };
+		9910A021A300DC6075459371 /* Pods-MinecheckerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinecheckerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MinecheckerTests/Pods-MinecheckerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF3D7EC898F135ACC4660D75 /* Pods_Minechecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minechecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946FE3C81B5FEE6100349583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941EEC701DFD3DF800356A66 /* AdSupport.framework in Frameworks */,
+				668ED308F20FDC051EF6DF98 /* Pods_Minechecker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946FE3DD1B5FEE6100349583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246D386432508A18099AABCC /* Pods_MinecheckerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036B3A1933DD21317677259E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81E7D8A3950EE93EB70299C7 /* Pods-Minechecker.debug.xcconfig */,
+				84406BEA7A1D351CF28507EF /* Pods-Minechecker.release.xcconfig */,
+				9910A021A300DC6075459371 /* Pods-MinecheckerTests.debug.xcconfig */,
+				748C994C2072D5D46FF6CABC /* Pods-MinecheckerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0B5E2D79BF11149A181D51B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941EEC6F1DFD3DF800356A66 /* AdSupport.framework */,
+				CF3D7EC898F135ACC4660D75 /* Pods_Minechecker.framework */,
+				13B4D23FA2CBA5ABF4AFEC13 /* Pods_MinecheckerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		946FE3C21B5FEE6100349583 = {
+			isa = PBXGroup;
+			children = (
+				946FE3CD1B5FEE6100349583 /* Minechecker */,
+				946FE3E31B5FEE6100349583 /* MinecheckerTests */,
+				946FE3CC1B5FEE6100349583 /* Products */,
+				036B3A1933DD21317677259E /* Pods */,
+				0B5E2D79BF11149A181D51B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		946FE3CC1B5FEE6100349583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3CB1B5FEE6100349583 /* Minechecker.app */,
+				946FE3E01B5FEE6100349583 /* MinecheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946FE3CD1B5FEE6100349583 /* Minechecker */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3F61B5FEE9600349583 /* Extensions */,
+				946FE3F71B5FEEA100349583 /* Models */,
+				946FE3F81B5FEEA500349583 /* Views */,
+				946FE3F91B5FEEA800349583 /* Controllers */,
+				946FE3D71B5FEE6100349583 /* Images.xcassets */,
+				946FE3D91B5FEE6100349583 /* LaunchScreen.xib */,
+				946FE3CE1B5FEE6100349583 /* Supporting Files */,
+			);
+			path = Minechecker;
+			sourceTree = "<group>";
+		};
+		946FE3CE1B5FEE6100349583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				941EEC711DFD3F2200356A66 /* GoogleService-Info.plist */,
+				946FE3CF1B5FEE6100349583 /* Info.plist */,
+				946FE4061B5FEF0200349583 /* Minechecker-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		946FE3E31B5FEE6100349583 /* MinecheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3E61B5FEE6100349583 /* MinecheckerTests.swift */,
+				946FE3E41B5FEE6100349583 /* Supporting Files */,
+			);
+			path = MinecheckerTests;
+			sourceTree = "<group>";
+		};
+		946FE3E41B5FEE6100349583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3E51B5FEE6100349583 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		946FE3F61B5FEE9600349583 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3FA1B5FEECA00349583 /* UIColorExtension.swift */,
+				94E2E81A1B6180F30029615B /* StringExtension.swift */,
+				946973A51B61FC4500A9095F /* UITextFieldExtension.swift */,
+				94AC07731E0BB632008D2759 /* UIImageViewExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		946FE3F71B5FEEA100349583 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3FC1B5FEECD00349583 /* MinecraftAccount.swift */,
+				9475FD021B6AF17100D874BB /* GradientBackgroundView.swift */,
+				94E9FD2D1B7D004A009647C9 /* MinecraftSearch.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		946FE3F81B5FEEA500349583 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3FE1B5FEED300349583 /* Main.storyboard */,
+				946FE4001B5FEEDF00349583 /* NameHistoryTableViewCell.swift */,
+				9407F8801B7EC9410055517F /* SavedSearchesTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		946FE3F91B5FEEA800349583 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				946FE3D01B5FEE6100349583 /* AppDelegate.swift */,
+				946FE3D21B5FEE6100349583 /* ViewController.swift */,
+				946FE4021B5FEEE500349583 /* NameHistoryTableViewController.swift */,
+				9407F87E1B7EC5E70055517F /* SavedSearchesTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		946FE3CA1B5FEE6100349583 /* Minechecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946FE3EA1B5FEE6100349583 /* Build configuration list for PBXNativeTarget "Minechecker" */;
+			buildPhases = (
+				30BAF534A8B5965BB2F2C765 /* [CP] Check Pods Manifest.lock */,
+				946FE3C71B5FEE6100349583 /* Sources */,
+				946FE3C81B5FEE6100349583 /* Frameworks */,
+				946FE3C91B5FEE6100349583 /* Resources */,
+				94C400CE1C777B060019E7E8 /* ShellScript */,
+				FED0E20C20FE06050D9C0AA0 /* [CP] Embed Pods Frameworks */,
+				9EFD38920E147743CEB0ABCC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minechecker;
+			productName = Minechecker;
+			productReference = 946FE3CB1B5FEE6100349583 /* Minechecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		946FE3DF1B5FEE6100349583 /* MinecheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946FE3ED1B5FEE6100349583 /* Build configuration list for PBXNativeTarget "MinecheckerTests" */;
+			buildPhases = (
+				2D746FEA7B87A698194906FB /* [CP] Check Pods Manifest.lock */,
+				946FE3DC1B5FEE6100349583 /* Sources */,
+				946FE3DD1B5FEE6100349583 /* Frameworks */,
+				946FE3DE1B5FEE6100349583 /* Resources */,
+				AACDBA040AC71EBACD95AC8B /* [CP] Embed Pods Frameworks */,
+				943E3BB7EE4D0570D9E578C2 /* [CP] Copy Pods Resources */,
+				94C0DD9B1E6E6C5600389428 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946FE3E21B5FEE6100349583 /* PBXTargetDependency */,
+			);
+			name = MinecheckerTests;
+			productName = MinecheckerTests;
+			productReference = 946FE3E01B5FEE6100349583 /* MinecheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946FE3C31B5FEE6100349583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ryan Donaldson";
+				TargetAttributes = {
+					946FE3CA1B5FEE6100349583 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = YS34RWX7AC;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					946FE3DF1B5FEE6100349583 = {
+						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = 946FE3CA1B5FEE6100349583;
+					};
+				};
+			};
+			buildConfigurationList = 946FE3C61B5FEE6100349583 /* Build configuration list for PBXProject "Minechecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946FE3C21B5FEE6100349583;
+			productRefGroup = 946FE3CC1B5FEE6100349583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				946FE3CA1B5FEE6100349583 /* Minechecker */,
+				946FE3DF1B5FEE6100349583 /* MinecheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		946FE3C91B5FEE6100349583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946FE3DB1B5FEE6100349583 /* LaunchScreen.xib in Resources */,
+				941EEC721DFD3F2200356A66 /* GoogleService-Info.plist in Resources */,
+				946FE3D81B5FEE6100349583 /* Images.xcassets in Resources */,
+				946FE3FF1B5FEED300349583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946FE3DE1B5FEE6100349583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D746FEA7B87A698194906FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30BAF534A8B5965BB2F2C765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		943E3BB7EE4D0570D9E578C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinecheckerTests/Pods-MinecheckerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C0DD9B1E6E6C5600389428 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "function removeHeaders() {\n    find $BUILD_ROOT/Debug-iphonesimulator/  -name '*.h' -exec rm -f {} \\;\n}\nremoveHeaders";
+		};
+		94C400CE1C777B060019E7E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		9EFD38920E147743CEB0ABCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minechecker/Pods-Minechecker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACDBA040AC71EBACD95AC8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinecheckerTests/Pods-MinecheckerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED0E20C20FE06050D9C0AA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Minechecker/Pods-Minechecker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946FE3C71B5FEE6100349583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946FE3D31B5FEE6100349583 /* ViewController.swift in Sources */,
+				946FE3D11B5FEE6100349583 /* AppDelegate.swift in Sources */,
+				946FE3FB1B5FEECA00349583 /* UIColorExtension.swift in Sources */,
+				946FE4031B5FEEE500349583 /* NameHistoryTableViewController.swift in Sources */,
+				946FE4011B5FEEDF00349583 /* NameHistoryTableViewCell.swift in Sources */,
+				9407F87F1B7EC5E70055517F /* SavedSearchesTableViewController.swift in Sources */,
+				946FE3FD1B5FEECD00349583 /* MinecraftAccount.swift in Sources */,
+				9407F8811B7EC9410055517F /* SavedSearchesTableViewCell.swift in Sources */,
+				94E2E81B1B6180F30029615B /* StringExtension.swift in Sources */,
+				946973A61B61FC4500A9095F /* UITextFieldExtension.swift in Sources */,
+				94E9FD2E1B7D004A009647C9 /* MinecraftSearch.swift in Sources */,
+				94AC07741E0BB632008D2759 /* UIImageViewExtension.swift in Sources */,
+				9475FD031B6AF17100D874BB /* GradientBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946FE3DC1B5FEE6100349583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946FE3E71B5FEE6100349583 /* MinecheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		946FE3E21B5FEE6100349583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 946FE3CA1B5FEE6100349583 /* Minechecker */;
+			targetProxy = 946FE3E11B5FEE6100349583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		946FE3D91B5FEE6100349583 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946FE3DA1B5FEE6100349583 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946FE3E81B5FEE6100349583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		946FE3E91B5FEE6100349583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946FE3EB1B5FEE6100349583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E7D8A3950EE93EB70299C7 /* Pods-Minechecker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ryan/Downloads/parse-starter-project-1.7.5/ParseSwiftStarterProject",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Minechecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legitmodern.Minechecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5645364-c19a-44ce-b76f-44e99f085841";
+				SWIFT_OBJC_BRIDGING_HEADER = "Minechecker/Minechecker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		946FE3EC1B5FEE6100349583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84406BEA7A1D351CF28507EF /* Pods-Minechecker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ryan/Downloads/parse-starter-project-1.7.5/ParseSwiftStarterProject",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Minechecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.legitmodern.Minechecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5645364-c19a-44ce-b76f-44e99f085841";
+				SWIFT_OBJC_BRIDGING_HEADER = "Minechecker/Minechecker-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		946FE3EE1B5FEE6100349583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9910A021A300DC6075459371 /* Pods-MinecheckerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinecheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.legitmodern.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minechecker.app/Minechecker";
+			};
+			name = Debug;
+		};
+		946FE3EF1B5FEE6100349583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748C994C2072D5D46FF6CABC /* Pods-MinecheckerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinecheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.legitmodern.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minechecker.app/Minechecker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946FE3C61B5FEE6100349583 /* Build configuration list for PBXProject "Minechecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946FE3E81B5FEE6100349583 /* Debug */,
+				946FE3E91B5FEE6100349583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946FE3EA1B5FEE6100349583 /* Build configuration list for PBXNativeTarget "Minechecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946FE3EB1B5FEE6100349583 /* Debug */,
+				946FE3EC1B5FEE6100349583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946FE3ED1B5FEE6100349583 /* Build configuration list for PBXNativeTarget "MinecheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946FE3EE1B5FEE6100349583 /* Debug */,
+				946FE3EF1B5FEE6100349583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946FE3C31B5FEE6100349583 /* Project object */;
+}
