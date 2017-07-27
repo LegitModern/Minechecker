@@ -22,7 +22,7 @@ class SavedSearchesTableViewController: UITableViewController, UIPopoverPresenta
         super.viewDidLoad()
         
         let results = realm.objects(MinecraftSearch.self).sorted(byKeyPath: "dateDouble", ascending: true)
-        FIRAnalytics.logEvent(withName: "visited_saved_searches", parameters: ["results": results.count as NSObject])
+        Analytics.logEvent("visited_saved_searches", parameters: ["results": results.count as NSObject])
         
         // Do any additional setup after loading the view, typically from a nib.
         configureTableView()

@@ -4,27 +4,27 @@ use_frameworks!
 
 target 'Minechecker' do
 
-pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
-pod 'Alamofire', '~> 4.0'
+pod 'SwiftyJSON'
+pod 'Alamofire', '~> 4.4'
 pod 'MBProgressHUD', '~> 1.0'
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
 pod 'RealmSwift'
-pod 'Firebase/Analytics', '~> 3.6'
-pod 'Firebase/Crash', '~> 3.6'
-pod 'Firebase/Messaging', '~> 3.6'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crash'
+pod 'Firebase/Messaging'
 
 end
 
 target 'MinecheckerTests' do
 
-pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
-pod 'Alamofire', '~> 4.0'
+pod 'SwiftyJSON'
+pod 'Alamofire', '~> 4.4'
 pod 'MBProgressHUD', '~> 1.0'
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
 pod 'RealmSwift'
-pod 'Firebase/Analytics', '~> 3.6'
-pod 'Firebase/Crash', '~> 3.6'
-pod 'Firebase/Messaging', '~> 3.6'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crash'
+pod 'Firebase/Messaging'
 
 end
 

@@ -23,7 +23,7 @@ class NameHistoryTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRAnalytics.logEvent(withName: "visited_name_history", parameters: ["account_name": (minecraftAccount?.playerName)! as NSObject])
+        Analytics.logEvent("visited_name_history", parameters: ["account_name": (minecraftAccount?.playerName)! as NSObject])
 
         // Do any additional setup after loading the view, typically from a nib.
         configureTableView()
@@ -48,7 +48,7 @@ class NameHistoryTableViewController: UITableViewController {
             self.playerIcon.download(from: url, contentMode: .scaleAspectFit, placeholder: UIImage(named: "SteveIcon.png"), completionHandler: { (image, error) in
                 
                 if error != nil {
-                    print("Could not download image from URL: \(error?.localizedDescription)")
+                    print("Could not download image from URL: \(String(describing: error?.localizedDescription))")
                 } else {
                     print("Successfully downloaded image!")
                     DispatchQueue.main.async {

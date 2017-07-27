@@ -1,32 +1,35 @@
 PODS:
-  - Alamofire (4.4.0)
-  - Firebase/Analytics (3.14.0):
+  - Alamofire (4.5.0)
+  - Firebase/Analytics (4.0.4):
     - Firebase/Core
-  - Firebase/Core (3.14.0):
-    - FirebaseAnalytics (= 3.7.0)
-    - FirebaseCore (= 3.5.1)
-  - Firebase/Crash (3.14.0):
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Crash (4.0.4):
     - Firebase/Core
-    - FirebaseCrash (= 1.1.6)
-  - Firebase/Messaging (3.14.0):
+    - FirebaseCrash (= 2.0.0)
+  - Firebase/Messaging (4.0.4):
     - Firebase/Core
-    - FirebaseMessaging (= 1.2.2)
-  - FirebaseAnalytics (3.7.0):
-    - FirebaseCore (~> 3.5)
-    - FirebaseInstanceID (~> 1.0)
+    - FirebaseMessaging (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
-  - FirebaseCore (3.5.1):
+  - FirebaseCore (4.0.4):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
-  - FirebaseCrash (1.1.6):
-    - FirebaseAnalytics (~> 3.7)
-    - FirebaseInstanceID (~> 1.0)
+    - nanopb (~> 0.3)
+  - FirebaseCrash (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - Protobuf (~> 3.1)
-  - FirebaseInstanceID (1.0.9)
-  - FirebaseMessaging (1.2.2):
-    - FirebaseAnalytics (~> 3.7)
-    - FirebaseInstanceID (~> 1.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
     - Protobuf (~> 3.1)
   - GoogleToolboxForMac/Defines (2.1.1)
@@ -35,55 +38,56 @@ PODS:
   - GoogleToolboxForMac/NSData+zlib (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - MBProgressHUD (1.0.0)
-  - Protobuf (3.2.0)
-  - Realm (2.4.3):
-    - Realm/Headers (= 2.4.3)
-  - Realm/Headers (2.4.3)
-  - RealmSwift (2.4.3):
-    - Realm (= 2.4.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Protobuf (3.3.0)
+  - Realm (2.9.0):
+    - Realm/Headers (= 2.9.0)
+  - Realm/Headers (2.9.0)
+  - RealmSwift (2.9.0):
+    - Realm (= 2.9.0)
   - Spring (1.0.3)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0)
-  - Firebase/Analytics (~> 3.6)
-  - Firebase/Crash (~> 3.6)
-  - Firebase/Messaging (~> 3.6)
+  - Alamofire (~> 4.4)
+  - Firebase/Analytics
+  - Firebase/Crash
+  - Firebase/Messaging
   - MBProgressHUD (~> 1.0)
   - RealmSwift
   - Spring (from `https://github.com/MengTo/Spring.git`)
-  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - SwiftyJSON
 
 EXTERNAL SOURCES:
   Spring:
     :git: https://github.com/MengTo/Spring.git
-  SwiftyJSON:
-    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 CHECKOUT OPTIONS:
   Spring:
-    :commit: ca8a88eaa54d4605cfcb146352df05bbaa52317c
+    :commit: 40b9d68e4d9e845f4ac37dfc46613bd6d9638e0f
     :git: https://github.com/MengTo/Spring.git
-  SwiftyJSON:
-    :commit: 619fba2d551b678aa0b6ceff1c863677f0eb7ff7
-    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
-  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
-  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
-  FirebaseCore: 225d40532489835a034b8f4e2c9c87fbf4f615a2
-  FirebaseCrash: db4c05d9c75baa050744d31b36357c8f1efba481
-  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
-  FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseCrash: 600ec2cbd8e10c3064a42de2c6ee7687bd02a076
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseMessaging: 227406c05b0dc9290702d2e9f18ab5528f0c2cf2
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
-  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
-  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+  nanopb: 22bc080fa3955e2116b6ff3ee6c2cb3c15ab97cb
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
+  Realm: f14ab1673502559cb16592ddb8f383c474c13e05
+  RealmSwift: 16ad2c187042c4934f49750375582fe508627dcb
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
-  SwiftyJSON: 05cf0e98a950e2ba343735264f5a96b81e755d00
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: c13599bd847178efc78668d96a19c05077e5b025
+PODFILE CHECKSUM: 5016dae2cddb4da3d75e1fffbb3ac4451d30106e
 
 COCOAPODS: 1.2.0
